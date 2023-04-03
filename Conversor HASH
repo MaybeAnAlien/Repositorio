@@ -1,0 +1,9 @@
+import hashlib
+
+a_string = "Insert String here"
+
+SHA256 = hashlib.sha256(a_string.encode('utf-8')).hexdigest()
+print("SHA256: ", SHA256)
+
+MD5 = hashlib.md5(a_string.encode('utf-8')).hexdigest()
+print("MD5: ", MD5)
