@@ -4,6 +4,17 @@ a_string = "Insert String here"
 
 SHA256 = hashlib.sha256(a_string.encode('utf-8')).hexdigest()
 print("SHA256: ", SHA256)
+if("Insert hash SAH256 here" == SHA256):
+  print("(SHA256 verdadeiro)")
+else:
+  print("(SHA256 falso)")
+
+
 
 MD5 = hashlib.md5(a_string.encode('utf-8')).hexdigest()
 print("MD5: ", MD5)
+if("Insert hash MD5 here" == MD5):
+  print("(MD5 verdadeiro)")
+else:
+  print("(MD5 falso)")
+
